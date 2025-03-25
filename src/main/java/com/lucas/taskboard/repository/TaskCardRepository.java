@@ -1,4 +1,7 @@
 package com.lucas.taskboard.repository;
 
-public class TaskCardRepository {
+import com.lucas.taskboard.model.TaskCard;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface TaskCardRepository extends JpaRepository<TaskCard, Long> {
 }

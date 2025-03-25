@@ -1,4 +1,7 @@
 package com.lucas.taskboard.repository;
 
-public class BoardRepository {
+import com.lucas.taskboard.model.Board;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface BoardRepository extends JpaRepository<Board, Long> {
 }

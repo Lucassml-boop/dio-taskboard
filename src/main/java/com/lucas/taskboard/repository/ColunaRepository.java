@@ -1,4 +1,7 @@
 package com.lucas.taskboard.repository;
 
-public class ColunaRepository {
+import com.lucas.taskboard.model.Coluna;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ColunaRepository extends JpaRepository<Coluna, Long> {
 }
